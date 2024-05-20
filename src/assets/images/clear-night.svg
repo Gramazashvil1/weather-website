@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-abae8fb7-de33-4139-8fd4-55ebea1d8979" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.509 53.018">
+  <defs>
+    <linearGradient id="uuid-d137b681-fa9f-45ca-b54b-15c8988b5455" data-name="New Gradient Swatch copy" x1="6.799" y1="46.219" x2="31.566" y2="21.452" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00adee"/>
+      <stop offset="1" stop-color="#00bcf1"/>
+    </linearGradient>
+    <linearGradient id="uuid-d3450d3d-93d8-4e42-a84b-084ca5fb18b8" data-name="New Gradient Swatch 1" x1="34.53" y1="20.436" x2="40.33" y2="14.636" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcb627"/>
+      <stop offset="1" stop-color="#ffcd22"/>
+    </linearGradient>
+    <linearGradient id="uuid-534ed310-999b-42f2-a6a2-0ee5bcba7486" data-name="New Gradient Swatch 1" x1="27.771" y1="4.996" x2="31.161" y2="1.607" xlink:href="#uuid-d3450d3d-93d8-4e42-a84b-084ca5fb18b8"/>
+  </defs>
+  <g id="uuid-f0e93017-7ffe-480e-99a5-b2817f72573b" data-name="Icons">
+    <g id="uuid-a6836e22-7ff6-4111-afac-ec3839a59ac7" data-name="clear-night">
+      <path d="m23.188,53.018C10.402,53.018,0,42.616,0,29.83,0,19.553,6.903,10.394,16.786,7.557c.431-.12.883-.003,1.195.309.312.313.431.769.308,1.194-.543,1.895-.82,3.824-.82,5.732,0,11.446,9.312,20.758,20.759,20.758,1.905,0,3.834-.276,5.732-.82.426-.119.881-.002,1.193.309.312.313.431.769.308,1.194-2.837,9.883-11.996,16.786-22.273,16.786Z" fill="url(#uuid-d137b681-fa9f-45ca-b54b-15c8988b5455)"/>
+      <path d="m38.216,21.994c-.432,1.588-1.139,1.588-1.571,0s-2.085-3.241-3.673-3.673-1.588-1.139,0-1.571,3.241-2.085,3.673-3.673,1.139-1.588,1.571,0,2.085,3.241,3.673,3.673,1.588,1.139,0,1.571-3.241,2.085-3.673,3.673Z" fill="url(#uuid-d3450d3d-93d8-4e42-a84b-084ca5fb18b8)"/>
+      <path d="m29.925,5.907c-.253.928-.666.928-.918,0s-1.218-1.894-2.146-2.146-.928-.666,0-.918,1.894-1.218,2.146-2.146.666-.928.918,0,1.218,1.894,2.146,2.146.928.666,0,.918-1.894,1.218-2.146,2.146Z" fill="url(#uuid-534ed310-999b-42f2-a6a2-0ee5bcba7486)"/>
+    </g>
+  </g>
+</svg>

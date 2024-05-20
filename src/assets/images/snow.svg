@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-5de51696-2803-4b6e-99a8-9f80b6eb0e8b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.917 65.491">
+  <defs>
+    <linearGradient id="uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4" data-name="New Gradient Swatch copy 2" x1="11.499" y1="46.491" x2="15.499" y2="46.491" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cfe7f7"/>
+      <stop offset="1" stop-color="#e1edf8"/>
+    </linearGradient>
+    <linearGradient id="uuid-a64ad9a9-8329-4240-af6d-dde079a7fa8a" data-name="New Gradient Swatch copy 2" x1="21.499" x2="25.499" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-41adf818-b85d-41d8-aea6-1ad25fc6392b" data-name="New Gradient Swatch copy 2" x1="31.499" x2="35.499" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-3b1e9788-db25-494d-a945-f3b65d849fb4" data-name="New Gradient Swatch copy 2" x1="41.499" x2="45.499" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-bc516eca-981e-4c32-9540-029e5dff4d16" data-name="New Gradient Swatch copy 2" y1="63.491" y2="63.491" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-9deffd44-68bf-41a8-931e-7a4cf5ae5424" data-name="New Gradient Swatch copy 2" x1="21.499" y1="63.491" x2="25.499" y2="63.491" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-e82e5472-2618-4c0a-8416-0234347089b2" data-name="New Gradient Swatch copy 2" x1="31.499" y1="63.491" x2="35.499" y2="63.491" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-802c778d-40e6-4c37-93f9-22a3774decce" data-name="New Gradient Swatch copy 2" x1="41.499" y1="63.491" x2="45.499" y2="63.491" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-31185d84-f509-4b27-83ac-7b2dff61845b" data-name="New Gradient Swatch copy 2" x1="6.499" y1="55.491" x2="10.499" y2="55.491" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-fed0301f-b89d-47a8-a63a-7ed78399b58c" data-name="New Gradient Swatch copy 2" x1="16.499" y1="55.491" x2="20.499" y2="55.491" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-74eb7172-6d70-4e2a-a544-486e22c82603" data-name="New Gradient Swatch copy 2" x1="26.499" y1="55.491" x2="30.499" y2="55.491" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-0aae2f73-856a-4e9f-8bae-22d185427f73" data-name="New Gradient Swatch copy 2" x1="36.499" y1="55.491" x2="40.499" y2="55.491" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+    <linearGradient id="uuid-609c0d02-fae1-404b-88db-c30c9f40d5e7" data-name="New Gradient Swatch copy 2" x1="38.746" y1="38.996" x2="59.071" y2="18.671" xlink:href="#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4"/>
+  </defs>
+  <g id="uuid-e7d0cbbe-db78-49a3-909d-3bc6c1b72f51" data-name="Icons">
+    <g id="uuid-89c5e426-c0ef-49ea-bc06-135c662db229" data-name="snow">
+      <circle cx="13.499" cy="46.491" r="2" fill="url(#uuid-c4551537-fe06-4f8c-a756-6f6152d0b7d4)"/>
+      <circle cx="23.499" cy="46.491" r="2" fill="url(#uuid-a64ad9a9-8329-4240-af6d-dde079a7fa8a)"/>
+      <circle cx="33.499" cy="46.491" r="2" fill="url(#uuid-41adf818-b85d-41d8-aea6-1ad25fc6392b)"/>
+      <circle cx="43.499" cy="46.491" r="2" fill="url(#uuid-3b1e9788-db25-494d-a945-f3b65d849fb4)"/>
+      <circle cx="13.499" cy="63.491" r="2" fill="url(#uuid-bc516eca-981e-4c32-9540-029e5dff4d16)"/>
+      <circle cx="23.499" cy="63.491" r="2" fill="url(#uuid-9deffd44-68bf-41a8-931e-7a4cf5ae5424)"/>
+      <circle cx="33.499" cy="63.491" r="2" fill="url(#uuid-e82e5472-2618-4c0a-8416-0234347089b2)"/>
+      <circle cx="43.499" cy="63.491" r="2" fill="url(#uuid-802c778d-40e6-4c37-93f9-22a3774decce)"/>
+      <circle cx="8.499" cy="55.491" r="2" fill="url(#uuid-31185d84-f509-4b27-83ac-7b2dff61845b)"/>
+      <circle cx="18.499" cy="55.491" r="2" fill="url(#uuid-fed0301f-b89d-47a8-a63a-7ed78399b58c)"/>
+      <circle cx="28.499" cy="55.491" r="2" fill="url(#uuid-74eb7172-6d70-4e2a-a544-486e22c82603)"/>
+      <circle cx="38.499" cy="55.491" r="2" fill="url(#uuid-0aae2f73-856a-4e9f-8bae-22d185427f73)"/>
+      <path d="m46.003,36.439c5.889,0,10.664-4.774,10.664-10.664s-4.774-10.664-10.664-10.664c-.037,0-.072.005-.109.005C44.945,6.613,37.736,0,28.979,0c-6.916,0-12.864,4.126-15.528,10.049-.084-.002-.168-.006-.252-.006C5.909,10.042,0,15.951,0,23.241s5.909,13.198,13.198,13.198" fill="#fff"/>
+      <path d="m60.22,36.439c3.698,0,6.696-2.998,6.696-6.696s-2.998-6.696-6.696-6.696c-.023,0-.045.003-.068.003-.596-5.34-5.123-9.492-10.622-9.492-4.343,0-8.078,2.591-9.751,6.31-.053,0-.105-.004-.158-.004-4.577,0-8.288,3.711-8.288,8.288s3.711,8.288,8.288,8.288" fill="url(#uuid-609c0d02-fae1-404b-88db-c30c9f40d5e7)"/>
+    </g>
+  </g>
+</svg>

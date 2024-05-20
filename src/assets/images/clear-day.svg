@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-a8fda11e-1f32-4d08-bf53-25b2230d555e" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 41 41">
+  <defs>
+    <linearGradient id="uuid-ac940716-9070-4c93-bd62-08b40e67e717" data-name="New Gradient Swatch 1" x1="6.004" y1="34.996" x2="34.996" y2="6.004" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcb627"/>
+      <stop offset="1" stop-color="#ffcd22"/>
+    </linearGradient>
+  </defs>
+  <g id="uuid-20aa8266-5a37-4ba2-b61c-f080e64b0335" data-name="Icons">
+    <g id="uuid-5c318cb6-f7ec-4ffd-a73c-e745c7dedc1e" data-name="clear-day">
+      <circle cx="20.5" cy="20.5" r="20.5" fill="url(#uuid-ac940716-9070-4c93-bd62-08b40e67e717)"/>
+    </g>
+  </g>
+</svg>

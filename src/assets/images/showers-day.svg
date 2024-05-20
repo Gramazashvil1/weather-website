@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-921932d4-c842-4f0f-9781-03f61db9719d" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.917 54.987">
+  <defs>
+    <linearGradient id="uuid-cb39f662-6b92-48ec-a8c8-9322a80e7f66" data-name="New Gradient Swatch 1" x1="39.448" y1="22.192" x2="57.833" y2="3.808" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcb627"/>
+      <stop offset="1" stop-color="#ffcd22"/>
+    </linearGradient>
+    <linearGradient id="uuid-d78e4335-33ac-483b-be8f-59b74f7e238f" data-name="New Gradient Swatch copy 2" x1="11.804" y1="42.713" x2="44.172" y2="10.345" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cfe7f7"/>
+      <stop offset="1" stop-color="#e1edf8"/>
+    </linearGradient>
+    <linearGradient id="uuid-09acc4e9-d017-423c-b234-2c16dccf86ef" data-name="New Gradient Swatch copy" x1="10.143" y1="50.486" x2="17.031" y2="50.486" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00adee"/>
+      <stop offset="1" stop-color="#00bcf1"/>
+    </linearGradient>
+    <linearGradient id="uuid-88e4ff85-352d-4e13-8be6-1868b624afed" data-name="New Gradient Swatch copy" x1="23.756" x2="30.643" xlink:href="#uuid-09acc4e9-d017-423c-b234-2c16dccf86ef"/>
+    <linearGradient id="uuid-6b234ae0-ce0a-4766-a0f1-6155a6c26ca7" data-name="New Gradient Swatch copy" x1="38.367" x2="45.255" xlink:href="#uuid-09acc4e9-d017-423c-b234-2c16dccf86ef"/>
+  </defs>
+  <g id="uuid-b77a6303-c23c-49ff-a5f7-49c84e7b717a" data-name="Icons">
+    <g id="uuid-ebaaaa24-027c-4cb2-b799-0711be64dee8" data-name="showers-day">
+      <circle cx="48.641" cy="13" r="13" fill="url(#uuid-cb39f662-6b92-48ec-a8c8-9322a80e7f66)"/>
+      <path d="m46.003,38.64c5.889,0,10.664-4.774,10.664-10.664s-4.774-10.664-10.664-10.664c-.037,0-.072.005-.109.005-.949-8.504-8.158-15.117-16.915-15.117-6.916,0-12.864,4.126-15.528,10.049-.084-.002-.168-.006-.252-.006C5.909,12.243,0,18.152,0,25.441s5.909,13.198,13.198,13.198" fill="url(#uuid-d78e4335-33ac-483b-be8f-59b74f7e238f)"/>
+      <path d="m60.22,38.64c3.698,0,6.696-2.998,6.696-6.696s-2.998-6.696-6.696-6.696c-.023,0-.045.003-.068.003-.596-5.34-5.123-9.492-10.622-9.492-4.343,0-8.078,2.591-9.751,6.31-.053,0-.105-.004-.158-.004-4.577,0-8.288,3.711-8.288,8.288s3.711,8.288,8.288,8.288" fill="#fff"/>
+      <path d="m12.142,54.987c-.339,0-.683-.086-.998-.269-.957-.552-1.284-1.775-.732-2.732l2.887-5c.553-.957,1.773-1.287,2.732-.732.957.552,1.284,1.775.732,2.732l-2.887,5c-.371.642-1.043,1-1.734,1Z" fill="url(#uuid-09acc4e9-d017-423c-b234-2c16dccf86ef)"/>
+      <path d="m25.754,54.987c-.339,0-.683-.086-.998-.269-.957-.552-1.284-1.775-.732-2.732l2.887-5c.553-.957,1.772-1.287,2.732-.732.957.552,1.284,1.775.732,2.732l-2.887,5c-.371.642-1.043,1-1.734,1Z" fill="url(#uuid-88e4ff85-352d-4e13-8be6-1868b624afed)"/>
+      <path d="m40.365,54.987c-.339,0-.683-.086-.998-.269-.957-.552-1.284-1.775-.732-2.732l2.887-5c.553-.957,1.772-1.287,2.732-.732.957.552,1.284,1.775.732,2.732l-2.887,5c-.371.642-1.043,1-1.734,1Z" fill="url(#uuid-6b234ae0-ce0a-4766-a0f1-6155a6c26ca7)"/>
+    </g>
+  </g>
+</svg>

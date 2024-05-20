@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-8f4d82a1-21ce-4100-997b-7263f5a72819" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.917 40.309">
+  <defs>
+    <linearGradient id="uuid-89c7fbc6-54d6-4f8b-9e32-eabb6082f634" data-name="New Gradient Swatch 1" x1="38.693" y1="22.192" x2="57.078" y2="3.808" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcb627"/>
+      <stop offset="1" stop-color="#ffcd22"/>
+    </linearGradient>
+    <linearGradient id="uuid-4b6b67f1-acdc-4ec6-8489-f68a4b4a8563" data-name="New Gradient Swatch copy 2" x1="38.746" y1="42.867" x2="59.071" y2="22.542" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cfe7f7"/>
+      <stop offset="1" stop-color="#e1edf8"/>
+    </linearGradient>
+  </defs>
+  <g id="uuid-d0f3a7b1-d087-45f1-9d93-ea268c2647d6" data-name="Icons">
+    <g id="uuid-f9ef5172-b001-4c73-a6c4-064f62f51c37" data-name="partly-cloudy-day">
+      <circle cx="47.886" cy="13" r="13" fill="url(#uuid-89c7fbc6-54d6-4f8b-9e32-eabb6082f634)"/>
+      <path d="m46.003,40.309c5.889,0,10.664-4.774,10.664-10.664s-4.774-10.664-10.664-10.664c-.037,0-.072.005-.109.005-.949-8.504-8.158-15.117-16.915-15.117-6.916,0-12.864,4.126-15.528,10.049-.084-.002-.168-.006-.252-.006C5.909,13.913,0,19.822,0,27.111s5.909,13.198,13.198,13.198" fill="#fff"/>
+      <path d="m60.22,40.309c3.698,0,6.696-2.998,6.696-6.696s-2.998-6.696-6.696-6.696c-.023,0-.045.003-.068.003-.596-5.34-5.123-9.492-10.622-9.492-4.343,0-8.078,2.591-9.751,6.31-.053,0-.105-.004-.158-.004-4.577,0-8.288,3.711-8.288,8.288s3.711,8.288,8.288,8.288" fill="url(#uuid-4b6b67f1-acdc-4ec6-8489-f68a4b4a8563)"/>
+    </g>
+  </g>
+</svg>

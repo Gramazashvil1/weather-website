@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-e2445592-9144-49cc-ba9c-b2c900b7c35e" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.917 65.107">
+  <defs>
+    <linearGradient id="uuid-3640ba13-bbad-410d-bd9b-64fdf341b272" data-name="New Gradient Swatch copy 2" x1="38.746" y1="38.996" x2="59.071" y2="18.671" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cfe7f7"/>
+      <stop offset="1" stop-color="#e1edf8"/>
+    </linearGradient>
+    <linearGradient id="uuid-a0f07ae6-0517-4693-a263-5ebcdcbb6ea9" data-name="New Gradient Swatch copy" x1="4.815" y1="51.414" x2="15.315" y2="51.414" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00adee"/>
+      <stop offset="1" stop-color="#00bcf1"/>
+    </linearGradient>
+    <linearGradient id="uuid-41c45741-e53d-4317-86c5-0ed742dc0723" data-name="New Gradient Swatch copy" x1="11.955" y1="54.446" x2="25.956" y2="54.446" xlink:href="#uuid-a0f07ae6-0517-4693-a263-5ebcdcbb6ea9"/>
+    <linearGradient id="uuid-313de4be-3059-48a0-ad91-97befcfd1834" data-name="New Gradient Swatch copy 2" x1="33.379" y1="46.138" x2="37.379" y2="46.138" xlink:href="#uuid-3640ba13-bbad-410d-bd9b-64fdf341b272"/>
+    <linearGradient id="uuid-31476c8f-f95e-4b6e-b995-5d481007feb4" data-name="New Gradient Swatch copy 2" x1="43.379" y1="46.138" x2="47.379" y2="46.138" xlink:href="#uuid-3640ba13-bbad-410d-bd9b-64fdf341b272"/>
+    <linearGradient id="uuid-d9376d7d-acb8-49be-861f-89ace412dce3" data-name="New Gradient Swatch copy 2" x1="24.379" y1="62.138" x2="28.379" y2="62.138" xlink:href="#uuid-3640ba13-bbad-410d-bd9b-64fdf341b272"/>
+    <linearGradient id="uuid-a4ce31d8-5bf7-4ecb-b36a-d7400d2f48d2" data-name="New Gradient Swatch copy 2" x1="29.379" y1="54.138" x2="33.379" y2="54.138" xlink:href="#uuid-3640ba13-bbad-410d-bd9b-64fdf341b272"/>
+    <linearGradient id="uuid-c907f852-3671-4f6b-a3bd-beb0adc5c79b" data-name="New Gradient Swatch copy 2" x1="39.379" y1="54.138" x2="43.379" y2="54.138" xlink:href="#uuid-3640ba13-bbad-410d-bd9b-64fdf341b272"/>
+  </defs>
+  <g id="uuid-f5055d8b-897b-49fd-a5ec-6dc06d6bae93" data-name="Icons">
+    <g id="uuid-9c8618b8-3cb3-433f-bef7-25febc845e57" data-name="sleet">
+      <path d="m46.003,36.439c5.889,0,10.664-4.774,10.664-10.664s-4.774-10.664-10.664-10.664c-.037,0-.072.005-.109.005C44.945,6.613,37.736,0,28.979,0c-6.916,0-12.864,4.126-15.528,10.049-.084-.002-.168-.006-.252-.006C5.909,10.042,0,15.951,0,23.241s5.909,13.198,13.198,13.198" fill="#fff"/>
+      <path d="m60.22,36.439c3.698,0,6.696-2.998,6.696-6.696s-2.998-6.696-6.696-6.696c-.023,0-.045.003-.068.003-.596-5.34-5.123-9.492-10.622-9.492-4.343,0-8.078,2.591-9.751,6.31-.053,0-.105-.004-.158-.004-4.577,0-8.288,3.711-8.288,8.288s3.711,8.288,8.288,8.288" fill="url(#uuid-3640ba13-bbad-410d-bd9b-64fdf341b272)"/>
+      <path d="m6.813,59.043c-.339,0-.683-.086-.998-.269-.957-.552-1.284-1.775-.732-2.732l6.499-11.256c.553-.956,1.772-1.287,2.732-.732.957.552,1.284,1.775.732,2.732l-6.499,11.256c-.371.642-1.043,1-1.734,1Z" fill="url(#uuid-a0f07ae6-0517-4693-a263-5ebcdcbb6ea9)"/>
+      <path d="m13.953,65.107c-.339,0-.683-.086-.998-.269-.957-.552-1.284-1.775-.732-2.732l10-17.32c.552-.956,1.772-1.287,2.732-.732.957.552,1.284,1.775.732,2.732l-10,17.32c-.371.642-1.043,1-1.734,1Z" fill="url(#uuid-41c45741-e53d-4317-86c5-0ed742dc0723)"/>
+      <circle cx="35.379" cy="46.138" r="2" fill="url(#uuid-313de4be-3059-48a0-ad91-97befcfd1834)"/>
+      <circle cx="45.379" cy="46.138" r="2" fill="url(#uuid-31476c8f-f95e-4b6e-b995-5d481007feb4)"/>
+      <circle cx="26.379" cy="62.138" r="2" fill="url(#uuid-d9376d7d-acb8-49be-861f-89ace412dce3)"/>
+      <circle cx="31.379" cy="54.138" r="2" fill="url(#uuid-a4ce31d8-5bf7-4ecb-b36a-d7400d2f48d2)"/>
+      <circle cx="41.379" cy="54.138" r="2" fill="url(#uuid-c907f852-3671-4f6b-a3bd-beb0adc5c79b)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-9140e3aa-d382-4728-84ad-e7d178d9b4b6" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.917 61.506">
+  <defs>
+    <linearGradient id="uuid-cf2c254e-2a45-482a-8d11-423b0760e69c" data-name="New Gradient Swatch copy 2" x1="38.746" y1="38.996" x2="59.071" y2="18.671" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cfe7f7"/>
+      <stop offset="1" stop-color="#e1edf8"/>
+    </linearGradient>
+    <linearGradient id="uuid-4c38df48-d782-4b63-81ab-471b1293a5b0" data-name="New Gradient Swatch copy 2" x1="10.115" y1="49.506" x2="20.115" y2="49.506" xlink:href="#uuid-cf2c254e-2a45-482a-8d11-423b0760e69c"/>
+    <linearGradient id="uuid-0dedd921-4941-4e45-88b7-5da010833a0c" data-name="New Gradient Swatch copy 2" x1="38.115" y1="49.506" x2="48.115" y2="49.506" xlink:href="#uuid-cf2c254e-2a45-482a-8d11-423b0760e69c"/>
+    <linearGradient id="uuid-acd121dc-c2be-45db-b5c0-cf961a081a2c" data-name="New Gradient Swatch copy 2" x1="24.115" y1="56.506" x2="34.115" y2="56.506" xlink:href="#uuid-cf2c254e-2a45-482a-8d11-423b0760e69c"/>
+  </defs>
+  <g id="uuid-b247d5ed-daaa-409c-9c89-c5056dbf4757" data-name="Icons">
+    <g id="uuid-e11cf933-81f5-4d1c-8b56-28031a2a296d" data-name="hail">
+      <path d="m46.003,36.439c5.889,0,10.664-4.774,10.664-10.664s-4.774-10.664-10.664-10.664c-.037,0-.072.005-.109.005C44.945,6.613,37.736,0,28.979,0c-6.916,0-12.864,4.126-15.528,10.049-.084-.002-.168-.006-.252-.006C5.909,10.042,0,15.951,0,23.241s5.909,13.198,13.198,13.198" fill="#fff"/>
+      <path d="m60.22,36.439c3.698,0,6.696-2.998,6.696-6.696s-2.998-6.696-6.696-6.696c-.023,0-.045.003-.068.003-.596-5.34-5.123-9.492-10.622-9.492-4.343,0-8.078,2.591-9.751,6.31-.053,0-.105-.004-.158-.004-4.577,0-8.288,3.711-8.288,8.288s3.711,8.288,8.288,8.288" fill="url(#uuid-cf2c254e-2a45-482a-8d11-423b0760e69c)"/>
+      <circle cx="15.115" cy="49.506" r="5" fill="url(#uuid-4c38df48-d782-4b63-81ab-471b1293a5b0)"/>
+      <circle cx="43.115" cy="49.506" r="5" fill="url(#uuid-0dedd921-4941-4e45-88b7-5da010833a0c)"/>
+      <circle cx="29.115" cy="56.506" r="5" fill="url(#uuid-acd121dc-c2be-45db-b5c0-cf961a081a2c)"/>
+    </g>
+  </g>
+</svg>

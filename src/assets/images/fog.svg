@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-add72eb5-73e3-4686-819e-8ea28ecb311f" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.917 55.189">
+  <defs>
+    <linearGradient id="uuid-4c2f72f4-a281-412f-ba6a-a1984b430727" data-name="New Gradient Swatch copy 2" x1="38.746" y1="38.996" x2="59.071" y2="18.671" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cfe7f7"/>
+      <stop offset="1" stop-color="#e1edf8"/>
+    </linearGradient>
+    <linearGradient id="uuid-011d3c53-23c1-4066-9857-d18712ee342b" data-name="New Gradient Swatch copy" x1="9.125" y1="45.689" x2="22.125" y2="45.689" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00adee"/>
+      <stop offset="1" stop-color="#00bcf1"/>
+    </linearGradient>
+    <linearGradient id="uuid-b1c53d3d-beb9-4f29-9e98-001f3da21cf4" data-name="New Gradient Swatch copy" x1="25.625" x2="43.625" xlink:href="#uuid-011d3c53-23c1-4066-9857-d18712ee342b"/>
+    <linearGradient id="uuid-3adec32a-57b9-42c7-bf64-29fba1aed22f" data-name="New Gradient Swatch copy" y1="53.689" x2="32.125" y2="53.689" xlink:href="#uuid-011d3c53-23c1-4066-9857-d18712ee342b"/>
+    <linearGradient id="uuid-e12618c7-9c93-4ae1-be2e-aaa40e25f012" data-name="New Gradient Swatch copy" x1="35.625" y1="53.689" x2="53.625" y2="53.689" xlink:href="#uuid-011d3c53-23c1-4066-9857-d18712ee342b"/>
+  </defs>
+  <g id="uuid-1d383f0f-8d09-480c-9418-3736ecc90045" data-name="Icons">
+    <g id="uuid-7d5d43d0-8e72-446d-ab91-d7754f1d5a62" data-name="fog">
+      <path d="m46.003,36.439c5.889,0,10.664-4.774,10.664-10.664s-4.774-10.664-10.664-10.664c-.037,0-.072.005-.109.005C44.945,6.613,37.736,0,28.979,0c-6.916,0-12.864,4.126-15.528,10.049-.084-.002-.168-.006-.252-.006C5.909,10.042,0,15.951,0,23.241s5.909,13.198,13.198,13.198" fill="#fff"/>
+      <path d="m60.22,36.439c3.698,0,6.696-2.998,6.696-6.696s-2.998-6.696-6.696-6.696c-.023,0-.045.003-.068.003-.596-5.34-5.123-9.492-10.622-9.492-4.343,0-8.078,2.591-9.751,6.31-.053,0-.105-.004-.158-.004-4.577,0-8.288,3.711-8.288,8.288s3.711,8.288,8.288,8.288" fill="url(#uuid-4c2f72f4-a281-412f-ba6a-a1984b430727)"/>
+      <path d="m20.625,47.189h-10c-.828,0-1.5-.671-1.5-1.5s.672-1.5,1.5-1.5h10c.828,0,1.5.671,1.5,1.5s-.672,1.5-1.5,1.5Z" fill="url(#uuid-011d3c53-23c1-4066-9857-d18712ee342b)"/>
+      <path d="m42.125,47.189h-15c-.828,0-1.5-.671-1.5-1.5s.672-1.5,1.5-1.5h15c.828,0,1.5.671,1.5,1.5s-.672,1.5-1.5,1.5Z" fill="url(#uuid-b1c53d3d-beb9-4f29-9e98-001f3da21cf4)"/>
+      <path d="m30.625,55.189H10.625c-.828,0-1.5-.671-1.5-1.5s.672-1.5,1.5-1.5h20c.828,0,1.5.671,1.5,1.5s-.672,1.5-1.5,1.5Z" fill="url(#uuid-3adec32a-57b9-42c7-bf64-29fba1aed22f)"/>
+      <path d="m52.125,55.189h-15c-.828,0-1.5-.671-1.5-1.5s.672-1.5,1.5-1.5h15c.828,0,1.5.671,1.5,1.5s-.672,1.5-1.5,1.5Z" fill="url(#uuid-e12618c7-9c93-4ae1-be2e-aaa40e25f012)"/>
+    </g>
+  </g>
+</svg>

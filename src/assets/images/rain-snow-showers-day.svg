@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-5cb4f688-dd55-492c-b918-8d7c0caae45c" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 66.917 67.049">
+  <defs>
+    <linearGradient id="uuid-c8d4ace8-1fa2-4ba5-9068-f9c135f797bb" data-name="New Gradient Swatch 1" x1="40.064" y1="21.947" x2="58.529" y2="3.482" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcb627"/>
+      <stop offset="1" stop-color="#ffcd22"/>
+    </linearGradient>
+    <linearGradient id="uuid-9d9a9a08-27ff-47d8-bb2b-cac4842c23e4" data-name="New Gradient Swatch copy 2" x1="11.804" y1="42.455" x2="44.172" y2="10.087" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cfe7f7"/>
+      <stop offset="1" stop-color="#e1edf8"/>
+    </linearGradient>
+    <linearGradient id="uuid-ab05f90e-5711-4be3-b67b-00e4c6cfe1f6" data-name="New Gradient Swatch copy" x1="4.815" y1="53.356" x2="15.315" y2="53.356" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00adee"/>
+      <stop offset="1" stop-color="#00bcf1"/>
+    </linearGradient>
+    <linearGradient id="uuid-011bb932-24c7-464c-a60d-24b3f96d98e7" data-name="New Gradient Swatch copy" x1="11.955" y1="56.388" x2="25.956" y2="56.388" xlink:href="#uuid-ab05f90e-5711-4be3-b67b-00e4c6cfe1f6"/>
+    <linearGradient id="uuid-b54e72e4-5f34-48aa-9990-7581b299ce21" data-name="New Gradient Swatch copy 2" x1="33.198" y1="48.024" x2="37.198" y2="48.024" xlink:href="#uuid-9d9a9a08-27ff-47d8-bb2b-cac4842c23e4"/>
+    <linearGradient id="uuid-37c4b8fd-e354-4ae0-8bf4-7bd5883951f1" data-name="New Gradient Swatch copy 2" x1="43.198" y1="48.024" x2="47.198" y2="48.024" xlink:href="#uuid-9d9a9a08-27ff-47d8-bb2b-cac4842c23e4"/>
+    <linearGradient id="uuid-a4ef06ba-001f-40c3-9107-4ead22581e1a" data-name="New Gradient Swatch copy 2" x1="24.198" y1="64.024" x2="28.198" y2="64.024" xlink:href="#uuid-9d9a9a08-27ff-47d8-bb2b-cac4842c23e4"/>
+    <linearGradient id="uuid-53d29cc6-698d-4a61-b11e-ff1a6e0a6eef" data-name="New Gradient Swatch copy 2" x1="29.198" y1="56.024" x2="33.198" y2="56.024" xlink:href="#uuid-9d9a9a08-27ff-47d8-bb2b-cac4842c23e4"/>
+    <linearGradient id="uuid-0f0093a2-4f9c-41d4-846e-8f7374cfbb4d" data-name="New Gradient Swatch copy 2" x1="39.198" y1="56.024" x2="43.198" y2="56.024" xlink:href="#uuid-9d9a9a08-27ff-47d8-bb2b-cac4842c23e4"/>
+  </defs>
+  <g id="uuid-72b5e249-4498-44ef-81c3-b31b43985947" data-name="Icons">
+    <g id="uuid-92e423c3-7527-4ec8-9556-6af4b69f3b0f" data-name="rain-snow-showers-day">
+      <path d="m62.26,12.714c-.076,16.953-25.853,16.952-25.926,0,.076-16.952,25.853-16.951,25.926,0Z" fill="url(#uuid-c8d4ace8-1fa2-4ba5-9068-f9c135f797bb)"/>
+      <g id="uuid-5dec56e7-0f91-48d4-9f2c-c2c7928c9e88" data-name="Sleet Night">
+        <path d="m46.003,38.382c5.889,0,10.664-4.774,10.664-10.664s-4.774-10.664-10.664-10.664c-.037,0-.072.005-.109.005-.949-8.504-8.158-15.117-16.915-15.117-6.916,0-12.864,4.126-15.528,10.049-.084-.002-.168-.006-.252-.006C5.909,11.985,0,17.894,0,25.183s5.909,13.198,13.198,13.198" fill="url(#uuid-9d9a9a08-27ff-47d8-bb2b-cac4842c23e4)"/>
+        <path d="m60.22,38.382c3.698,0,6.696-2.998,6.696-6.696s-2.998-6.696-6.696-6.696c-.023,0-.045.003-.068.003-.596-5.34-5.123-9.492-10.622-9.492-4.343,0-8.078,2.591-9.751,6.31-.053,0-.105-.004-.158-.004-4.577,0-8.288,3.711-8.288,8.288s3.711,8.288,8.288,8.288" fill="#fff"/>
+        <path d="m6.813,60.986c-.339,0-.683-.086-.998-.269-.957-.552-1.284-1.775-.732-2.732l6.499-11.256c.553-.957,1.772-1.287,2.732-.732.957.552,1.284,1.775.732,2.732l-6.499,11.256c-.371.642-1.043,1-1.734,1Z" fill="url(#uuid-ab05f90e-5711-4be3-b67b-00e4c6cfe1f6)"/>
+        <path d="m13.953,67.049c-.339,0-.683-.086-.998-.268-.957-.553-1.284-1.775-.732-2.732l10-17.32c.552-.957,1.772-1.287,2.732-.732.957.552,1.284,1.775.732,2.732l-10,17.32c-.371.642-1.043,1-1.734,1Z" fill="url(#uuid-011bb932-24c7-464c-a60d-24b3f96d98e7)"/>
+        <circle cx="35.198" cy="48.024" r="2" fill="url(#uuid-b54e72e4-5f34-48aa-9990-7581b299ce21)"/>
+        <circle cx="45.198" cy="48.024" r="2" fill="url(#uuid-37c4b8fd-e354-4ae0-8bf4-7bd5883951f1)"/>
+        <circle cx="26.198" cy="64.024" r="2" fill="url(#uuid-a4ef06ba-001f-40c3-9107-4ead22581e1a)"/>
+        <circle cx="31.198" cy="56.024" r="2" fill="url(#uuid-53d29cc6-698d-4a61-b11e-ff1a6e0a6eef)"/>
+        <circle cx="41.198" cy="56.024" r="2" fill="url(#uuid-0f0093a2-4f9c-41d4-846e-8f7374cfbb4d)"/>
+      </g>
+    </g>
+  </g>
+</svg>
