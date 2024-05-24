@@ -9,7 +9,6 @@ dayjs.extend(utc);
 dayjs.extend(timezone);
 
 function CurrentWeather() {
-
     // custom hook
     const {weatherData} = useWeatherData();
 
