@@ -28,13 +28,13 @@ body {
 }
 
 
-/*Ant Design*/
-.ant-modal{
+/*Ant design for modal and search*/
+.ant-modal {
     max-width: 380px;
     padding: 10px;
 }
 
-.modalBtn  .ant-modal-body, .ant-modal-footer {
+.modalBtn .ant-modal-body, .ant-modal-footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -53,7 +53,7 @@ body {
 }
 
 .modalBtn .ant-modal-footer .ant-btn:hover {
-    background-color:#3474cb ;
+    background-color: #3474cb;
     color: #eee;
     border: 1px solid #cccccc;
 }
@@ -66,6 +66,23 @@ body {
 
 .modalBtn .ant-btn:focus-visible {
     outline: none;
+}
+
+.ant-form {
+    position: relative;
+    height: 40px;
+}
+
+.ant-input, .ant-input:hover, .ant-input:focus, .ant-input:focus-within {
+    border: 1px solid #00000009;
+    outline: none;
+    background-color: #393d4d;
+    box-shadow: none;
+}
+
+.ant-input:where(.css-dev-only-do-not-override-1r287do).ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+    background-color: #393d4d;
+    border: 1px solid #af4547;
 }
 
 /*Swiper*/
