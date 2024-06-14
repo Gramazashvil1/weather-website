@@ -14,7 +14,8 @@ function Card({
                   freeMode,
                   swiperClassName,
                   spaceBetween,
-                  disablePagination
+                  disablePagination,
+                  swiperRef,
               }) {
     return (
         <section
@@ -22,11 +23,13 @@ function Card({
             <div
                 className="w-full h-[45px] flex items-center pl-[25px] pt-[2px] bg-[#000] bg-opacity-10 text-[16px] top-0 absolute">
                 <h1>{title}</h1>
-                {freeMode &&
+                {
+                    freeMode &&
                     <div
                         className="absolute right-[25px] top-[9px] rounded-md px-[7px] py-[2px] bg-[#2e67b4] text-[14px]">
                         Scroll Right
-                    </div>}
+                    </div>
+                }
             </div>
             {swiperDisable
                 ? children
@@ -38,12 +41,13 @@ function Card({
                     breakpoints={breakpoints}
                     modules={[Pagination, FreeMode]}
                     className={swiperClassName}
+                    ref={swiperRef}
                 >
                     {children}
                 </Swiper>
             }
             {freeMode && <div
-                className="mt-[-17px] z-40 rounded-t-3xl h-[20px] !max-w-[833px] ml-[25px] mr-[10px] bg-[#000] bg-opacity-[7%]"></div>
+                className="mt-[-17px] z-40 rounded-t-3xl h-[20px] !max-w-[833px] ml-[25px] mr-[10px] bg-[#000] bg-opacity-[7%]"/>
             }
         </section>
     );

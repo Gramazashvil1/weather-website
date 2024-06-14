@@ -27,45 +27,39 @@ body {
     padding-bottom: 15px;
 }
 
-
-/*Ant design for modal and search*/
-.ant-modal {
-    max-width: 380px;
-    padding: 10px;
-}
-
-.modalBtn .ant-modal-body, .ant-modal-footer {
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4b5577;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    margin-bottom: 10px;
+    opacity: 1;
+    z-index: 100;
 }
 
-.modalBtn .ant-btn {
-    border: 1px solid #cccccc;
-    font-size: 15px;
-    color: #1b1b1b;
-    background-color: unset;
-    display: flex;
-    align-items: center;
+.preloader.fade-out {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
 }
 
-.modalBtn .ant-modal-footer .ant-btn:hover {
-    background-color: #3474cb;
-    color: #eee;
-    border: 1px solid #cccccc;
+.preloader .ant-spin-lg .ant-spin-dot {
+    font-size: 50px;
+    opacity: 50%;
 }
 
-.modalBtn .ant-modal-footer .ant-btn:active {
-    color: #eee;
-    background-color: #336bb8;
-    border: 1px solid #cccccc;
+.preloader .ant-spin-lg .ant-spin-dot i {
+    width: 25px;
+    height: 25px;
+
 }
 
-.modalBtn .ant-btn:focus-visible {
-    outline: none;
+.ant-spin .ant-spin-dot-item {
+    background-color: #ffffff;
 }
 
 .ant-form {
@@ -85,7 +79,12 @@ body {
     border: 1px solid #af4547;
 }
 
-/*Swiper*/
+:where(.css-dev-only-do-not-override-1r287do).ant-btn-primary {
+    color: #fff;
+    background-color: #387ad3;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+
 .swiper-pagination-bullet-active {
     background-color: #2075cf;
 }
