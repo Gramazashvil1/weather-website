@@ -24,11 +24,12 @@ function WeatherDataProvider({children}) {
     const [tabs, setTabs] = useState(1);
     const [scrollTop, setScrollTop] = useState(false);
     const swiperRef = useRef(null);
+    const apiKey = import.meta.env.VITE_WEATHER_API_KEY
 
     const fetchWeatherData = async () => {
         setIsLoading(true)
         try {
-            const response = await axios.get(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=${unitGroup}&key=MVHKWF6DS5G3EFJ6Y5F9G622C&contentType=json`)
+            const response = await axios.get(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=${unitGroup}&key=${apiKey}&contentType=json`)
             setWeatherData(response.data);
             setTimeZone(response.data.timezone);
             updateSearchHistory(response.data);
