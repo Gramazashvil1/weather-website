@@ -19,7 +19,7 @@ a {
 }
 
 body {
-    background-image: url("src/assets/images/background.webp");
+    background-image: url("assets/images/background.webp");
     background-position: center;
     background-size: cover;
     padding-top: 20px;
