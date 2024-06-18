@@ -27,7 +27,7 @@ function Card({
                     freeMode &&
                     <div
                         className="absolute right-[25px] top-[9px] rounded-md px-[7px] py-[2px] bg-[#2e67b4] text-[14px]">
-                        Scroll Right
+                        Timeline
                     </div>
                 }
             </div>
