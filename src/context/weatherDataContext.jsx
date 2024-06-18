@@ -24,10 +24,11 @@ function WeatherDataProvider({children}) {
     const [tabs, setTabs] = useState(1);
     const [scrollTop, setScrollTop] = useState(false);
     const swiperRef = useRef(null);
+    const [messageApi, contextHolder] = message.useMessage();
     const apiKey = import.meta.env.VITE_WEATHER_API_KEY
 
     const fetchWeatherData = async () => {
-        setIsLoading(true)
+        preloaderDelay(true, 0)
         try {
             const response = await axios.get(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=${unitGroup}&key=${apiKey}&contentType=json`)
             setWeatherData(response.data);
@@ -35,10 +36,10 @@ function WeatherDataProvider({children}) {
             updateSearchHistory(response.data);
             localStorage.setItem('currentLocation', response.data.address);
         } catch (error) {
-            message.warning('Location not found. Please try again.');
-            console.log(error);
+            warningMessage()
         } finally {
-            setIsLoading(false)
+            preloaderDelay(false, 250)
+            message.destroy('deleteMessage')
         }
     }
 
@@ -102,6 +103,21 @@ function WeatherDataProvider({children}) {
         }
     }
 
+    function preloaderDelay(boolean, ms) {
+        setTimeout(() => {
+            setIsLoading(boolean)
+        }, ms)
+    }
+
+    const warningMessage = () => {
+        messageApi.open({
+            type: 'warning',
+            content: 'Location not found. Please try again.',
+            key: "deleteMessage",
+            duration: 1.5,
+        });
+    };
+
     return (
         <WeatherDataContext.Provider value={{
             weatherData,
@@ -122,6 +138,7 @@ function WeatherDataProvider({children}) {
             setTabs,
             swiperRef,
             scrollToFirstSlide,
+            contextHolder
         }}>
             {children}
         </WeatherDataContext.Provider>
