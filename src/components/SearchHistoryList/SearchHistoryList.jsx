@@ -34,7 +34,7 @@ function SearchHistoryList({classNameLi, classNameUl, chunk, deleteLocation}) {
                                 okText="Yes"
                                 cancelText="No"
                             >
-                                <button type="button" aria-label="OpenModal"
+                                <button type="primary" aria-label="OpenModal"
                                         className="h-full pr-[10px] pl-[6px] opacity-55 transition-opacity duration-200 lg:hover:opacity-100">
                                     <DeleteIcon className="w-[18px] h-[18px]"/>
                                 </button>
