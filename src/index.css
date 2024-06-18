@@ -18,33 +18,50 @@ a {
     text-decoration: none;
 }
 
-body {
-    background-image: url("assets/images/background.webp");
-    background-position: center;
+:root{
+    background-color: #4b597c;
+}
+
+/*This is done to ensure that the background works correctly on different devices.*/
+html{
+    background-image:url("assets/images/background.jpg");
+    background-color: #4b597c;
     background-size: cover;
-    padding-top: 20px;
-    backdrop-filter: blur(50px);
-    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body{
+    background-image:url("assets/images/background.jpg");
+    background-color: #4b597c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
 }
 
 .preloader {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background-color: #4b5577;
+    background-color: #4b597c;
+    background-image:url("assets/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 1;
     z-index: 100;
 }
 
 .preloader.fade-out {
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.3s;
+    transition: opacity 0.4s;
 }
 
 .preloader .ant-spin-lg .ant-spin-dot {
@@ -55,7 +72,6 @@ body {
 .preloader .ant-spin-lg .ant-spin-dot i {
     width: 25px;
     height: 25px;
-
 }
 
 .ant-spin .ant-spin-dot-item {
@@ -65,6 +81,10 @@ body {
 .ant-form {
     position: relative;
     height: 40px;
+}
+
+.ant-message-notice-wrapper{
+    padding-top: 65px!important;
 }
 
 .ant-input, .ant-input:hover, .ant-input:focus, .ant-input:focus-within {
@@ -79,12 +99,15 @@ body {
     border: 1px solid #af4547;
 }
 
-:where(.css-dev-only-do-not-override-1r287do).ant-btn-primary {
-    color: #fff;
-    background-color: #387ad3;
-    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+.ant-popconfirm-buttons .ant-btn-primary{
+    background-color: #387ad3!important;
 }
 
+.ant-popconfirm-buttons .ant-btn-primary:hover{
+    background-color: #3789ff !important;
+}
+
+/*Swiper*/
 .swiper-pagination-bullet-active {
     background-color: #2075cf;
 }
