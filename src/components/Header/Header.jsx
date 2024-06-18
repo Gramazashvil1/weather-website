@@ -6,27 +6,33 @@ import {WeatherDataContext} from "../../context/weatherDataContext.jsx";
 function Header() {
 
     const [form] = Form.useForm();
-    const {changeLocation,changeUnitGroup,unitGroup} = useContext(WeatherDataContext);
+    const {changeLocation, changeUnitGroup, unitGroup, contextHolder} = useContext(WeatherDataContext);
 
     function searchLocation(place) {
-        changeLocation(place.search)
+        changeLocation(place.search.toLowerCase())
         form.resetFields();
     }
 
-    function preventNumbers(e) {
+    function preventNonLetters(e) {
         const charCode = e.which ? e.which : e.keyCode;
-        if (charCode >= 48 && charCode <= 57) {
+        const charStr = String.fromCharCode(charCode);
+        const regex = /^[a-zA-Z]+$/;
+
+        if (!regex.test(charStr) && charCode !== 13) {
             e.preventDefault();
         }
     }
 
     return (
-        <header className="w-full px-[10px]">
+        <header className="w-full px-[10px] mt-[15px]">
+            {contextHolder}
             <div
                 className="h-[60px] max-w-[1200px] px-[20px] m-auto gap-x-[10px] flex items-center justify-between rounded-2xl border-[1px] border-[#00000009] bg-[#000] bg-opacity-20">
-                <Form onFinish={searchLocation} form={form}>
-                    <Form.Item onKeyDown={preventNumbers}  name="search" rules={[{required: true, message:''},{warningOnly:true}]}>
-                        <Input autoComplete="off" required={true}  placeholder="Search for location" className="h-[38px] text-[15px] pl-[10px] pr-[35px] pt-[1px] rounded-md text-main-white placeholder-[#b0c1d7] w-[180px] sm:w-[279px]"/>
+                <Form onFinish={searchLocation} form={form} className="mt-[2px]">
+                    <Form.Item onKeyPress={preventNonLetters} name="search"
+                               rules={[{required: true, message: ''}, {warningOnly: true}]}>
+                        <Input autoComplete="off" required={true} placeholder="Search for location"
+                               className="h-[38px] text-[15px] pl-[10px] pr-[35px] pt-[1px] rounded-md text-main-white placeholder-[#b0c1d7] w-[180px] sm:w-[279px]"/>
                     </Form.Item>
 
                     <button name="search" aria-label="Search" type="submit"
@@ -38,7 +44,7 @@ function Header() {
                 <button
                     onClick={changeUnitGroup}
                     className="outline-0 w-[60px] min-w-[55px] h-[38px] pt-[2px] text-[15px] text-main-white rounded-3xl border-[1px] border-[#00000009] bg-[#000] bg-opacity-20 lg:hover:bg-opacity-30 transition duration-300"
-                    aria-label="Fahrenheit">
+                    aria-label="celsiusAndFahrenheit">
                     {unitGroup === 'metric' ? '°C' : '°F'}
                 </button>
             </div>
