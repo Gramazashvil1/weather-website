@@ -38,7 +38,7 @@ function WeatherDataProvider({children}) {
         } catch (error) {
             warningMessage()
         } finally {
-            preloaderDelay(false, 250)
+            preloaderDelay(false, 200)
             message.destroy('deleteMessage')
         }
     }

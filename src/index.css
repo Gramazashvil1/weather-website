@@ -18,27 +18,8 @@ a {
     text-decoration: none;
 }
 
-:root{
-    background-color: #4b597c;
-}
-
-/*This is done to ensure that the background works correctly on different devices.*/
-html{
-    background-image:url("assets/images/background.jpg");
-    background-color: #4b597c;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-body{
-    background-image:url("assets/images/background.jpg");
-    background-color: #4b597c;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
+body {
+    background: linear-gradient(to bottom, #555B75 0%, #555B75 33.54%, #2C436C 100%);
 }
 
 .preloader {
@@ -46,12 +27,7 @@ body{
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #4b597c;
-    background-image:url("assets/images/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
+    background-color: #485372;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,8 +59,8 @@ body{
     height: 40px;
 }
 
-.ant-message-notice-wrapper{
-    padding-top: 65px!important;
+.ant-message-notice-wrapper {
+    padding-top: 65px !important;
 }
 
 .ant-input, .ant-input:hover, .ant-input:focus, .ant-input:focus-within {
@@ -99,11 +75,11 @@ body{
     border: 1px solid #af4547;
 }
 
-.ant-popconfirm-buttons .ant-btn-primary{
-    background-color: #387ad3!important;
+.ant-popconfirm-buttons .ant-btn-primary {
+    background-color: #387ad3 !important;
 }
 
-.ant-popconfirm-buttons .ant-btn-primary:hover{
+.ant-popconfirm-buttons .ant-btn-primary:hover {
     background-color: #3789ff !important;
 }
 
