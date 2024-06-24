@@ -16,11 +16,14 @@ The project is built using React + Vite.
 
 ## Technologies Used
 
+* HTML: The standard markup language for creating web pages
+* CSS: Stylesheet language used for describing the look and formatting of the website
+* Tailwind CSS: A utility-first CSS framework
 * React: A JavaScript library for building user interfaces
+* JavaScript: The core programming language for building web applications
 * Vite: A fast development build tool for modern web apps with React support
 * Ant Design: A design system for enterprise-level products
 * Swiper: A modern touch slider
-* Tailwind CSS: A utility-first CSS framework
 * Axios: A promise-based HTTP client for the browser
 * Svgr for Vite: A tool to transform SVGs into React components
 * Day.js: A minimalist JavaScript library for date and time manipulation
